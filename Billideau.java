@@ -123,10 +123,9 @@ public class Billideau {
 		
 		public static void main(String[] args)
 		{
-			// Your program should always output your name and the project number.
-			// DO NOT DELETE OR COMMENT OUT. Replace with relevant info.
+			
 			System.out.println("Sean Billideau");
-			System.out.println("Project 3");
+			
 			System.out.println("");
 
 			// Decimal format class for printing out any prices
@@ -140,11 +139,6 @@ public class Billideau {
 			ArrayList<Animal> stalls = generateRandomStallArrangement(numAnimals);
 			
 			
-			// TODO: Insert your code here which causes Old MacDonald (this client code) to
-			// visit each of the stalls. Old MacDonald should speak to each animal to determine
-			// what type of food to feed it. All along the way, he keeps track of what types 
-			// of animals and how much of each type of food he is using. See the project
-			// PDF for specific output expectations.
 			double dogFeedings = 0;
 			double	catFeedings = 0;
 			double cowFeedings = 0;
@@ -202,12 +196,7 @@ public class Billideau {
 		
 		}
 		
-		/////////////////////////////////////////////////////////////////////////////////
-		// DO NOT EDIT
-		// This method generates a stall with numAnimals which are generated randomly.
-		// In addition, the number of feedings required per animal are set randomly as
-		// a number between 1 and 10.
-		/////////////////////////////////////////////////////////////////////////////////
+		
 		private static ArrayList<Animal> generateRandomStallArrangement(int numAnimals)
 		{
 			// Create new stall (ArrayList) of animals
@@ -234,11 +223,6 @@ public class Billideau {
 			return newStallArrangement;
 		}
 		
-		/////////////////////////////////////////////////////////////////////////////////
-		// DO NOT EDIT
-		// This method generates a stall with a dog, cat and cow, which each need five
-		// servings of food.
-		/////////////////////////////////////////////////////////////////////////////////
 		private static ArrayList<Animal> generateDogCatCow5ServingArrangement()
 		{
 			// Create new stall (ArrayList) of animals containing a Dog, Cat & Cow, each with a requirement of 5 servings
